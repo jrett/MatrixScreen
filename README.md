@@ -23,13 +23,21 @@ in windows console.
 
 
 Microsoft Guide on workign with escape sequences
+
 https://docs.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences
 
+
 Stack overflow article discussing escape sequences in win32
+
 https://stackoverflow.com/questions/16755142/how-to-make-win32-console-recognize-ansi-vt100-escape-sequences
 
+
 A blog that talks about this issue and has a bit of code to enable windows console to support ANSI escape secuences
+
 https://www.jerriepelser.com/blog/using-ansi-color-codes-in-net-console-apps/
 
+
 Wikipedia article
+
 https://en.wikipedia.org/wiki/ANSI_escape_code
+
