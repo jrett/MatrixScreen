@@ -9,7 +9,7 @@ This code uses a single thread to handle the logic and drawing of the screen, wh
 input to exit the program. Concurrency is achieved during the display by implementing a cooperative multitasking scheme,
 similar to what you might find in game development.
 
-Another fun excercise might be to convert this concurrency model to use Task Parallel Library (TPL) or something sililar,
+Another fun exercise might be to convert this concurrency model to use Task Parallel Library (TPL) or something similar,
 where each display column runs in its own thread, instead of cooperatively sharing time.
 
 The drawing implemented in this application relies on ANSI Escape Sequences for both color and positioning of the text.
@@ -22,9 +22,17 @@ The following links provides useful information about ANSI escape sequences as w
 in windows console.
 
 
-Microsoft Guide on workign with escape sequences
+
+Here's the link to the video tutorial on YouTube
+
+https://youtu.be/9vnR0iJ3MC0
+
+
+
+Microsoft Guide on working with escape sequences
 
 https://docs.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences
+
 
 
 Stack overflow article discussing escape sequences in win32
@@ -32,9 +40,11 @@ Stack overflow article discussing escape sequences in win32
 https://stackoverflow.com/questions/16755142/how-to-make-win32-console-recognize-ansi-vt100-escape-sequences
 
 
-A blog that talks about this issue and has a bit of code to enable windows console to support ANSI escape secuences
+
+A blog that talks about this issue and has a bit of code to enable windows console to support ANSI escape sequences
 
 https://www.jerriepelser.com/blog/using-ansi-color-codes-in-net-console-apps/
+
 
 
 Wikipedia article
