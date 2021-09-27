@@ -1,5 +1,5 @@
 # MatrixScreen
-A C# .NET Core terminal application that displays a terminal of characters in the style of the Matrix movies.
+A C# .NET Core, cross platform terminal application that displays a terminal of characters in the style of the Matrix movies.
 
 I was inspired by running across a couple of samples of this on YouTube and thought it would be a fun little project.
 I also made a video of me writing this so that I can share it with others and maybe even inspire some to take an
@@ -18,14 +18,17 @@ And though this is a Windows Console application, it does not run in the windows
 not support, by default, ANSI escape sequences. It does, however, run fine in the Visual Studio 2019 console by
 launching it from within visual studio.
 
-The following links provides useful information about ANSI escape sequences as well as a way to enable support
-in windows console.
-
+It is .NET Core though, so it will work fine on Mac and Linux.
 
 
 Here's the link to the video tutorial on YouTube
 
 https://youtu.be/9vnR0iJ3MC0
+
+
+
+The following links provides useful information about ANSI escape sequences as well as a way to enable support
+in windows console.
 
 
 
